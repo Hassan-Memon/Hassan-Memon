@@ -56,11 +56,11 @@ Every website shows a different dollar rate, and none of them tells you **who de
 
 ## 🧰 Stack
 
-**LLM systems:** LangGraph · LangChain · multi-agent workflows · RAG · tool calling · evaluation and benchmark design · LangSmith · Whisper / TTS
-**Backend and data:** Python · FastAPI · Django / DRF · Node.js · PostgreSQL · PGVector · Elasticsearch · OCR and document pipelines
-**Cloud and delivery:** Docker · Azure Container Apps · Cloudflare Workers · GitHub Actions · supply-chain hygiene (SHA-pinned actions, secret scanning)
-**Domain:** Islamic commercial law (fiqh al-mu'amalat) · Islamic banking and Takaful rulings · Urdu–Arabic scholarly translation
-**Languages:** Arabic (native) · Urdu (native) · English (professional)
+- **LLM systems:** LangGraph · LangChain · multi-agent workflows · RAG · tool calling · evaluation and benchmark design · LangSmith · Whisper / TTS
+- **Backend and data:** Python · FastAPI · Django / DRF · Node.js · PostgreSQL · PGVector · Elasticsearch · OCR and document pipelines
+- **Cloud and delivery:** Docker · Azure Container Apps · Cloudflare Workers · GitHub Actions · supply-chain hygiene (SHA-pinned actions, secret scanning)
+- **Domain:** Islamic commercial law (fiqh al-mu'amalat) · Islamic banking and Takaful rulings · Urdu–Arabic scholarly translation
+- **Languages:** Arabic (native) · Urdu (native) · English (professional)
 
 ---
 
@@ -68,7 +68,5 @@ Every website shows a different dollar rate, and none of them tells you **who de
 
 **Hiring for Arabic or Islamic-finance AI, LLM evaluation, or agentic backends?**
 I reply to every serious message: [hassan.ghaddai@live.com](mailto:hassan.ghaddai@live.com) · [LinkedIn](https://www.linkedin.com/in/hassan-memon-a109b3257/)
-
-![Hassan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hassan-Memon&show_icons=true&theme=default)
 
 </div>
