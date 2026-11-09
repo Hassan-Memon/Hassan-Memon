@@ -12,11 +12,11 @@ I build production Python and LLM systems (LangGraph, FastAPI, PostgreSQL/PGVect
 
 ---
 
-## 💱 Featured: TrueRate — one honest exchange rate, with every source shown
+## 💱 Featured: TrueRate — what did your currency deal really cost?
 
 <div align="center">
 
-**[truerate.truerate-app.workers.dev](https://truerate.truerate-app.workers.dev)** — live, free, no sign-up
+**[truerate.truerate-app.workers.dev](https://truerate.truerate-app.workers.dev)** — live, free, no sign-up, in English and [اردو](https://truerate.truerate-app.workers.dev/ur)
 
 [![CI](https://github.com/Hassan-Memon/truerate/actions/workflows/ci.yml/badge.svg)](https://github.com/Hassan-Memon/truerate/actions/workflows/ci.yml)
 [![Deploy](https://github.com/Hassan-Memon/truerate/actions/workflows/deploy.yml/badge.svg)](https://github.com/Hassan-Memon/truerate/actions/workflows/deploy.yml)
@@ -24,16 +24,16 @@ I build production Python and LLM systems (LangGraph, FastAPI, PostgreSQL/PGVect
 
 </div>
 
-Every website shows a different dollar rate, and none of them tells you **who decided it, how, and when**. TrueRate asks **4 independent market feeds and 108 central banks** at the same moment, then shows the consensus, the spread between sources, the official central-bank view and a trust score — with every publisher named.
+People changing money see a rate and a fee, but rarely what the deal cost them in total. Enter what you gave and what you received, and TrueRate shows the cost in your own money against the market rate that day, with its margin of error and every source named. Your amounts stay in your browser.
 
 | What makes it different | How it is built |
 |---|---|
-| Shows the *disagreement* between sources instead of hiding it behind one number | Zero runtime dependencies: plain Node.js 22 on Cloudflare Workers, no build step |
-| Central-bank rates next to market rates, with the gap measured | Zero API keys and zero hosting cost — every upstream is free and public |
-| A research write-up on [who actually sets exchange rates](https://github.com/Hassan-Memon/truerate/blob/master/docs/research.md), traced to primary sources | 67 offline tests, CI on Node 22 and 24, deploy on merge with SHA-pinned actions |
-| Honest about its own weak point: the consensus is only as good as its sources, so each one is graded | Security headers on every response; the full posture is [documented with verification commands](https://github.com/Hassan-Memon/truerate/blob/master/docs/security.md) |
+| Refuses to guess: no rate when sources split, and no verdict for currencies documented as having more than one rate or where the margin of error is too wide | Zero runtime dependencies: plain Node.js on Cloudflare Workers, no build step, no hosting cost |
+| Private by design: the browser fetches a benchmark and does the sum itself, so amounts never reach the server | Server-rendered English and Urdu pages with right-to-left layout and structured data |
+| A research write-up on [who actually sets exchange rates](https://github.com/Hassan-Memon/truerate/blob/master/docs/research.md), traced to primary sources | 111 offline tests, CI on Node 22 and 24, deploy on merge with SHA-pinned actions |
+| Honest about its limits: the [README](https://github.com/Hassan-Memon/truerate#current-limits) lists them, and demand is not yet tested with real users | Security headers on every response; the full posture is [documented with verification commands](https://github.com/Hassan-Memon/truerate/blob/master/docs/security.md) |
 
-**→ [Read the code](https://github.com/Hassan-Memon/truerate)** · Next on the roadmap: the State Bank of Pakistan rate ladder (interbank → bank → open market), so a person can see exactly where their money goes. Built with Claude Code as the coding assistant.
+**→ [Read the code](https://github.com/Hassan-Memon/truerate)** · Built with Claude Code as the coding assistant.
 
 ---
 
